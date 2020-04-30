@@ -7,6 +7,8 @@
 
 # About
 
+Node.js based script for saving chat logs by day and user that is talked with on Steam
+
 ![GitHub package version](https://img.shields.io/github/package-json/v/Refloow/Steam-Chat-Logger.svg)
 [![GitHub forks](https://img.shields.io/github/forks/Refloow/Steam-Chat-Logger.svg?style=plastic)](https://github.com/Refloow/Steam-Chat-Logger/network)
 [![GitHub stars](https://img.shields.io/github/stars/Refloow/Steam-Chat-Logger.svg?style=plastic)](https://github.com/Refloow/Steam-Chat-Logger/stargazers)
