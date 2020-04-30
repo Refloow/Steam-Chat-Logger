@@ -32,6 +32,12 @@ Project is made open source and free for all. We cant prohibit reselling of our 
 
 https://discord.gg/XxvjjPs
 
+# Features
+
+- Option to use it without knowing shared secret code (Manual entering 2fa codes)
+- Loging chat logs by each user (can be disabled in config)
+- Loging chat logs by each day (can be disabled in config)
+
 # Prerequisites
 - Node.js (https://nodejs.org/en/)
 - Text editor (recommend sublime: https://www.sublimetext.com/3)
