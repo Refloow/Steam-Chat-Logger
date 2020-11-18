@@ -2,8 +2,11 @@
 
 /* 
   Here is contact info: refloowlibrarycontact@gmail.com
-  or main dev steam: https://steamcommunity.com/id/MajokingGames/
-
+  main dev steam: https://steamcommunity.com/id/MajokingGames/
+  Support Discord: https://discord.gg/nNSDPvKBjt
+  
+  Donate: https://ko-fi.com/refloow
+  
  */
 
 // Checking if required modules are properly installed
@@ -77,7 +80,7 @@ refloow.on('loggedOn', () => {
     // Geting persona
 	refloow.getPersonas([refloow.steamID], (personas) => {
         // DEV console display message after login
-		infolog.correct(`| [Refloow] | LOGIN |: Logined to Steam as ${personas[refloow.steamID].player_name} \n\n`);
+		infolog.correct(`| [Refloow] | LOGIN |: Logined to Steam as ${refloow.steamID} \n\n`);
 
 
 	    console.log('Everything is ready: '.cyan);
@@ -132,6 +135,9 @@ refloow.on("friendMessage", function (steamID, message) {
 
 /* 
   Here is contact info: refloowlibrarycontact@gmail.com
-  or main dev steam: https://steamcommunity.com/id/MajokingGames/
-
+  main dev steam: https://steamcommunity.com/id/MajokingGames/
+  Support Discord: https://discord.gg/nNSDPvKBjt
+  
+  Donate: https://ko-fi.com/refloow
+  
  */
