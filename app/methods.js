@@ -28,7 +28,7 @@ try {
 
 // Importing files
 const package = require('./../package.json');
-const config = require('../Settings/config.js');
+const config = require('./Settings/config.js');
 
 // Exporting method module
 t = module.exports = {
