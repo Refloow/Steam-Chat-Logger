@@ -36,7 +36,7 @@ let userMsgs = {}
 // Importing files into project
 
 // Importing config file
-const config = require('../Settings/config.js');
+const config = require('./Settings/config.js');
 // Importing infolog (file with colors for logs)
 const infolog = require('./infolog.js');
 // Importing methods file
@@ -110,7 +110,7 @@ refloow.on("friendMessage", function (steamID, message) {
         userLogs[steamID.getSteamID64()].push(message);
     }
     if(method.ChatLogsForEachUserEnabled()) {
-        fs.writeFile("./Settings/ChatLogs/UserLogs/" + steamID.getSteamID64() + "-log-" + new Date().getDate() + "-" + new Date().getMonth() + "-" + new Date().getFullYear() + ".json", JSON.stringify({logs: userLogs[steamID.getSteamID64()]}), (ERR) => {
+        fs.writeFile("./app/Settings/ChatLogs/UserLogs/" + steamID.getSteamID64() + "-log-" + new Date().getDate() + "-" + new Date().getMonth() + "-" + new Date().getFullYear() + ".json", JSON.stringify({logs: userLogs[steamID.getSteamID64()]}), (ERR) => {
             if (ERR) {
                 infolog.error("| |UserData| |: An error occurred while writing UserLogs file: " + ERR);
             }
@@ -118,7 +118,7 @@ refloow.on("friendMessage", function (steamID, message) {
     }
     if(method.DailyChatLogsEnabled()) {
         chatLogs += steamID.getSteamID64() + " : " + message + "\n";
-        fs.writeFile("./Settings/ChatLogs/FullLogs/log-" + new Date().getDate() + "-" + new Date().getMonth() + "-" + new Date().getFullYear() + ".txt", chatLogs, (ERR) => {
+        fs.writeFile("./app/Settings/ChatLogs/FullLogs/log-" + new Date().getDate() + "-" + new Date().getMonth() + "-" + new Date().getFullYear() + ".txt", chatLogs, (ERR) => {
             if (ERR) {
                 infolog.error("| |UserData| |: An error occurred while writing FullLogs file: " + ERR);
             }
