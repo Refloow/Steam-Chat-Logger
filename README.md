@@ -5,9 +5,15 @@
 <img width="600" height="100" src="https://github.com/d0biar/skdsajl/blob/master/ProjectImages/steam-chat-logger-.png?raw=true">
 </p>
 
-# About
+<h1 align= "center"><b>
+  About
+  </b>
+</h1>
 
+<p align= "center">
 Node.js based script for saving chat logs by day and user that is talked with on Steam
+  <hr>
+</p>
 
 <p align= "center">
   <img src="https://img.shields.io/github/package-json/v/Refloow/Steam-Chat-Logger.svg" alt="GitHub package version">
