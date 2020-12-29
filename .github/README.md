@@ -1,9 +1,6 @@
 <p align="center">
 <img width="155" height="155" src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Steam_Logo.png">
 </p>
-<p align="center">
-<img width="600" height="100" src="https://github.com/d0biar/skdsajl/blob/master/ProjectImages/steam-chat-logger-.png?raw=true">
-</p>
 
 <h1 align= "center"><b>
   About
