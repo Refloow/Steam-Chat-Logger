@@ -67,6 +67,7 @@ Project is made open source and **free for all.**<br>
 
 <br>
 <hr>
+
 # DISCORD Support Server
 
 https://discord.gg/XxvjjPs
