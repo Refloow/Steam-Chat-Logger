@@ -1,1 +1,5 @@
-Features will be listed here later (currently creating this file in all repos) - Making things more organized and info easier to find
+# Features
+
+- Option to use it without knowing shared secret code (Manual entering 2fa codes)
+- Loging chat logs by each user (can be disabled in config)
+- Loging chat logs by each day (can be disabled in config)
