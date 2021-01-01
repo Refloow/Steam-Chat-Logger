@@ -73,7 +73,7 @@ Project is made open source and **free for all.**<br>
 <hr>
 
 ### `Setup Guide`
-> **[Step By Step Setup Guide]()**<br>
+> **[Step By Step Setup Guide](https://github.com/OSL-Works/Steam-Chat-Logger/wiki)**<br>
 ### `Contributions`
 > **[Want to contribute? Read how](https://github.com/OSL-Works/Steam-Chat-Logger/blob/master/.github/CONTRIBUTING.md)**<br>
 ### `Features`
