@@ -1,13 +1,27 @@
 // Steam Chat Logger - Bot built by Refloow (-MajokingGames)
+	
+	    
+/*
+
+Want active support and new updates with new features all for free?
+
+Leave an star on github repo its free ( we push updates based on the engagement )
+Repo link: https://github.com/OSL-Works/Steam-Chat-Logger
+
+  Discord Support Server: https://discord.gg/D8WCtDD     (Open an ticket)
+
+*/
+	
 
 /* 
   Here is contact info: refloowlibrarycontact@gmail.com
   main dev steam: https://steamcommunity.com/id/MajokingGames/
-  Support Discord: https://discord.gg/nNSDPvKBjt
   
   Donate: https://ko-fi.com/refloow
 
  */
+
+
 
 // Checking if all modules are correctly installed
 
@@ -48,12 +62,26 @@ console.log('Steam: https://steamcommunity.com/tradeoffer/new/?partner=392773011
 require('./app/app.js');
 
 // Steam Chat Logger - Bot built by Refloow (-MajokingGames)
+	
+	    
+/*
+
+Want active support and new updates with new features all for free?
+
+Leave an star on github repo its free ( we push updates based on the engagement )
+Repo link: https://github.com/OSL-Works/Steam-Chat-Logger
+
+  Discord Support Server: https://discord.gg/D8WCtDD     (Open an ticket)
+
+*/
+	
 
 /* 
   Here is contact info: refloowlibrarycontact@gmail.com
   main dev steam: https://steamcommunity.com/id/MajokingGames/
-  Support Discord: https://discord.gg/nNSDPvKBjt
   
   Donate: https://ko-fi.com/refloow
 
  */
+
+
