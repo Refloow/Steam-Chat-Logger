@@ -9,7 +9,7 @@
   "homepage": "https://github.com/Refloow/Steam-Chat-Logger/blob/master/README.md",
   "dependencies": {
     "colors": "1.4.0",
-    "console-master": "1.0.2",
+    "console-master": "latest",
     "moment": "2.28.0",
     "request": "2.88.0",
     "request-promise": "4.2.6",
