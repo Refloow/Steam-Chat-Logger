@@ -53,6 +53,9 @@ try {
 	process.exit(1);
 }
 
+const package = require('./package.json');
+const v = package.version;
+
 // Basic display information on app start
 
 console.log('8888888b.          .d888888                              '.cyan);
@@ -67,7 +70,7 @@ console.log('888   T88b "Y8888 888   888 "Y88P"  "Y88P"  "Y8888888P" \n\n\n'.cya
 console.log('/* Original work: Copyright (c) 2020-2021 Refloow All rights reserved. \n Code origin (Free GitHub publish): https://github.com/OSL-Works/Steam-Chat-Logger*/\n'.cyan);
 
 console.log('This bot was developed by MajokingGames'.cyan);
-console.log('Verision 1.0.1'.cyan);
+console.log(`Verision ${v}`.cyan);
 console.log('Thanks for choosing us.'.cyan);
 console.log('Loading config file...'.green );
 console.log('Starting bot...'.green );
@@ -79,7 +82,8 @@ console.log('Check links down below:\n'.brightYellow);
 console.log('Ko-fi: https://ko-fi.com/refloow'.green);
 console.log('Steam: https://steamcommunity.com/tradeoffer/new/?partner=392773011&token=CncehZti (ingame items)\n\n'.green);
 
-// Importing main app file
+// Starting main app
+
 require('./app/app.js');
 
 
