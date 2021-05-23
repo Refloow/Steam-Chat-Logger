@@ -99,7 +99,7 @@ This file will be updated as soon as the guide is finished
 
 # Support the project
 - **If you like the project and the fact that is free you can support us by giving an donation.**
-- We are accepting donations on:
+- We are accepting donations:
 
 1. Crypto: https://refloow.com/cdonate
 2. Steam: https://steamcommunity.com/tradeoffer/new/?partner=392773011&token=CncehZti
