@@ -23,7 +23,7 @@ Repo link: https://github.com/OSL-Works/Steam-Chat-Logger
   
  * Donations:
   Crypto: https://refloow.com/cdonate
-  Steam: https://steamcommunity.com/tradeoffer/new/?partner=392773011&token=CncehZti
+  Steam: https://steamcommunity.com/tradeoffer/new/?partner=994828078&token=XEUdbqp6
 
  */
 
