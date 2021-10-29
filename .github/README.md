@@ -47,6 +47,7 @@ Node.js based script for saving chat logs by day and user that is talked with on
   </a>
 </p>
 
+<h3 align= "center"> Leave a star, we push updates based on activity </h3>
 
 # Note:
 
