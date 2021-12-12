@@ -147,3 +147,9 @@ Step 5 (run the bot)
 - Click start.bat file to run bot.
 
 If there is any questions feel free to ask me on: https://steamcommunity.com/id/MajokingGames/
+
+
+# Stars over time
+
+[![Stargazers over time](https://starchart.cc/Refloow/Steam-Chat-Logger.svg)](https://starchart.cc/Refloow/Steam-Chat-Logger)
+
