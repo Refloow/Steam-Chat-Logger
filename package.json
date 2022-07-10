@@ -6,7 +6,7 @@
   "bugs": {
     "url": "https://github.com/Refloow/Steam-Chat-Logger/issues"
   },
-  "homepage": "https://github.com/Refloow/Steam-Chat-Logger/blob/master/README.md",
+  "homepage": "https://github.com/Refloow/Steam-Chat-Logger",
   "dependencies": {
     "colors": "1.4.0",
     "console-master": "^1.0.3",
