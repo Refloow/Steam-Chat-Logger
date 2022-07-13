@@ -72,6 +72,10 @@ t = module.exports = {
         return config.LogsForEachUser == true;
     },
 
+    CheckData: function() {
+        return config.checkdata == true;
+    },
+
     DailyChatLogsEnabled: function() {
         return config.LogsForEachDay == true;
     },
