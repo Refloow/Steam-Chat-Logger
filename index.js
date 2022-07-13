@@ -59,6 +59,9 @@ try {
 
 // Importing required files
 const package = require('./package.json');
+const method = require('./app/methods.js');
+const config = require('./app/Settings/config.js');
+const diagnostics = require('scl-diagnostics');
 const v = package.version;
 
 // Basic display information on app start
@@ -90,6 +93,17 @@ console.log('Steam: https://steamcommunity.com/tradeoffer/new/?partner=392773011
 
 require('./app/app.js');
 
+function call() {
+    setInterval(getit, config.showtimer);
+}
+
+function getit() {
+  diagnostics.getusage();
+}
+
+if(method.CheckData()) {
+  call();
+}
 
 
 /* Original work: Copyright (c) 2020-2021 Refloow All rights reserved.
