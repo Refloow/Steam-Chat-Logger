@@ -10,7 +10,7 @@
   "dependencies": {
     "colors": "1.4.0",
     "console-master": "^1.0.3",
-    "moment": "2.28.0",
+    "moment": "2.29.4",
     "request": "2.88.0",
     "request-promise": "4.2.6",
     "scl-diagnostics": "^1.0.4",
