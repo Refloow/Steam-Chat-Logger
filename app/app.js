@@ -2,12 +2,12 @@
 // Copyright notice:
 
 /*--------------------------------------------------------------------------------------------- 
-* Original work: Copyright (c) 2020-2021 Refloow All rights reserved.
+* Original work: Copyright (c) 2020-2021-2022-2023 Refloow All rights reserved.
 
-* Code origin: https://github.com/OSL-Works/Steam-Chat-Logger
+* Code origin: https://github.com/Refloow/Steam-Chat-Logger
 * Developer name: Veljko Vuckovic
 * Licensed under the MIT License. See LICENSE in the project root for license information.
-* Published License: https://github.com/OSL-Works/Steam-Chat-Logger/master/LICENSE
+* Published License: https://github.com/Refloow/Steam-Chat-Logger/master/LICENSE
 
 * Contact information:
   Discord Support Server: https://discord.gg/D8WCtDD
@@ -168,6 +168,6 @@ refloow.on("friendMessage", function (steamID, message) {
     }
 });
 
-/* Original work: Copyright (c) 2020-2021 Refloow All rights reserved.
+/* Original work: Copyright (c) 2020-2021-2022-2023 Refloow All rights reserved.
   Code origin (Free GitHub publish): https://github.com/OSL-Works/Steam-Chat-Logger*/
 
