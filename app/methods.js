@@ -96,6 +96,12 @@ t = module.exports = {
             method: 'GET',
         };
         function look(error, JSONresponse, body) {
+            // body may be undefined when connection failed
+            if (!body) {
+                console.log(`| [GitHub] | VERSION |: Unable to check for updates!`);
+                return;
+            }
+
             var page = JSON.parse(body)
             const v = package.version;
             if(page.version != v)
