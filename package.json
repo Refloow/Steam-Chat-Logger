@@ -1,6 +1,6 @@
 {
   "name": "steam-chat-logger",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Node.js based script for saving chat logs by day and user that is talked with on Steam",
   "main": "index.js",
   "bugs": {
