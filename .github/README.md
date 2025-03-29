@@ -153,3 +153,8 @@ If there is any questions feel free to ask me on: https://steamcommunity.com/id/
 
 [![Stargazers over time](https://starchart.cc/Refloow/Steam-Chat-Logger.svg)](https://starchart.cc/Refloow/Steam-Chat-Logger)
 
+
+# TODO
+- add graphical interface to recreate how chat looked on steam...
+- add ability for all messages to be logged not only the ones sent by the user
+
