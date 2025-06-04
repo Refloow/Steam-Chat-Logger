@@ -1,6 +1,6 @@
 {
   "name": "steam-chat-logger",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Node.js based script for saving chat logs by day and user that is talked with on Steam",
   "main": "index.js",
   "bugs": {
@@ -14,9 +14,9 @@
     "request": "2.88.0",
     "request-promise": "4.2.6",
     "scl-diagnostics": "^1.0.4",
-    "steam-totp": "^2.1.2",
-    "steam-user": "5.0.4",
-    "steamcommunity": "^3.48.0",
+    "steam-totp": "2.1.2",
+    "steam-user": "5.2.3",
+    "steamcommunity": "3.48.8",
     "winston": "3.3.3"
   },
   "scripts": {
@@ -29,5 +29,5 @@
   },
   "author": "Veljko Vuckovic",
   "license": "MIT",
-  "years": "2020-2021-2022-2023-2024"
+  "years": "2020-2021-2022-2023-2024-2025"
 }
