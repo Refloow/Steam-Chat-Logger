@@ -1,12 +1,46 @@
 {
-  "name": "steam-chat-logger",
+  "name": "@refloow/steam-chat-logger",
   "version": "1.0.4",
-  "description": "Node.js based script for saving chat logs by day and user that is talked with on Steam",
+  "description": "Refloow™ Steam Chat Logger - The official open source chat logging automation script maintained by the Refloow Organization.",
   "main": "index.js",
+  "private": true,
+  "author": {
+    "name": "Refloow",
+    "email": "legal@refloow.com",
+    "url": "https://refloow.com"
+  },
+  "contributors": [
+    {
+      "name": "Veljko Vuckovic",
+      "url": "https://github.com/Refloow"
+    }
+  ],
+  "funding": {
+    "type": "individual",
+    "url": "https://refloow.com"
+  },
+  "homepage": "https://refloow.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Refloow/Steam-Chat-Logger.git"
+  },
+  "keywords": [
+    "Refloow",
+    "Refloow™",
+    "Official",
+    "steam",
+    "logging",
+    "chat-logger"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "title Refloow™ / Steam-Chat-Logger & node index.js"
+  },
+  "license": "MIT",
+  "years": "2020-2025",
   "bugs": {
     "url": "https://github.com/Refloow/Steam-Chat-Logger/issues"
   },
-  "homepage": "https://github.com/Refloow/Steam-Chat-Logger",
   "dependencies": {
     "colors": "1.4.0",
     "console-master": "^1.0.3",
@@ -18,16 +52,5 @@
     "steam-user": "5.2.3",
     "steamcommunity": "3.48.8",
     "winston": "3.3.3"
-  },
-  "scripts": {
-    "test": "echo \"no test specified\" && exit 1",
-    "start": "title Refloow / Steam-Chat-Logger & node index.js pause"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://https://github.com/Refloow/Steam-Chat-Logger.git"
-  },
-  "author": "Veljko Vuckovic",
-  "license": "MIT",
-  "years": "2020-2021-2022-2023-2024-2025"
+  }
 }
