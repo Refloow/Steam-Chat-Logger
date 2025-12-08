@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please credit the official Refloow™ brand using the metadata below."
+title: "Refloow™ Steam Chat Logger"
+abstract: "The official chat logging and archival tool maintained by the Refloow™ Software Organization."
+authors:
+  - name: "Refloow"
+    website: "https://refloow.com"
+    email: "legal@refloow.com"
+  - family-names: "Vuckovic"
+    given-names: "Veljko"
+    affiliation: "Refloow Founder"
+version: 1.0.4
+date-released: 2020-04-30
+license: "MIT"
+repository-code: "https://github.com/Refloow/Steam-Chat-Logger"
+url: "https://refloow.com"
+keywords:
+  - "Refloow"
+  - "Refloow™"
+  - "Official"
+  - "Steam Logs"
+  - "Chat Logger"
