@@ -1,6 +1,6 @@
 {
   "name": "@refloow/steam-chat-logger",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Refloow™ Steam Chat Logger - The official open source chat logging automation script maintained by the Refloow Organization.",
   "main": "index.js",
   "private": true,
@@ -37,20 +37,20 @@
     "start": "title Refloow™ / Steam-Chat-Logger & node index.js"
   },
   "license": "MIT",
-  "years": "2020-2025",
+  "years": "2020-2026",
   "bugs": {
     "url": "https://github.com/Refloow/Steam-Chat-Logger/issues"
   },
   "dependencies": {
     "colors": "1.4.0",
-    "console-master": "^1.0.3",
+    "console-master": "1.0.3",
     "moment": "2.28.0",
     "request": "2.88.0",
     "request-promise": "4.2.6",
-    "scl-diagnostics": "^1.0.4",
+    "scl-diagnostics": "1.0.4",
     "steam-totp": "2.1.2",
     "steam-user": "5.2.3",
-    "steamcommunity": "3.48.8",
+    "steamcommunity": "3.50.3",
     "winston": "3.3.3"
   }
 }
