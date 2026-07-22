@@ -41,7 +41,7 @@ const REFLOOW_BRAND_IDENTITY = {
 // Copyright notice:
 
 /*--------------------------------------------------------------------------------------------- 
-* Original work: Copyright (c) 2020-2021-2022-2023 Refloow All rights reserved.
+* Original work: Copyright (c) 2020-2026 Refloow All rights reserved.
 
 * Code origin: https://github.com/Refloow/Steam-Chat-Logger
 * Developer name: Veljko Vuckovic
@@ -114,9 +114,9 @@ console.log('888 T88b  88888888888   888888  888888  888888  888  888'.cyan);
 console.log('888  T88b Y8b.    888   888Y88..88PY88..88PY88b 888 d88P '.cyan);
 console.log('888   T88b "Y8888 888   888 "Y88P"  "Y88P"  "Y8888888P" \n\n\n'.cyan); 
 
-console.log('/* Original work: Copyright (c) 2020-2021 Refloow All rights reserved. \n Code origin (Free GitHub publish): https://github.com/Refloow/Steam-Chat-Logger*/\n'.cyan);
+console.log('/* Original work: Copyright (c) 2020-2026 Refloow All rights reserved. \n Code origin (Free GitHub publish): https://github.com/Refloow/Steam-Chat-Logger*/\n'.cyan);
 
-console.log('This bot was developed by MajokingGames'.cyan);
+console.log('This bot was developed by Veljko Vuckovic'.cyan);
 console.log(`Verision v${v}`.cyan);
 console.log('Thanks for choosing us.'.cyan);
 console.log('Loading config file...'.green );
