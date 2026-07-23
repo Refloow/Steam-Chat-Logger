@@ -185,20 +185,85 @@ refloow.on("friendMessage", function (steamID, message) {
         userLogs[steamID.getSteamID64()] = [];
         userLogs[steamID.getSteamID64()].push(message);
     }
+
+    let date = new Date();
+
     if(method.ChatLogsForEachUserEnabled()) {
-        fs.writeFile("./app/Settings/ChatLogs/UserLogs/" + steamID.getSteamID64() + "-log-" + new Date().getDate() + "-" + new Date().getMonth() + "-" + new Date().getFullYear() + ".json", JSON.stringify({logs: userLogs[steamID.getSteamID64()]}), (ERR) => {
+        fs.writeFile("./app/Settings/ChatLogs/UserLogs/" + steamID.getSteamID64() + "-log-" + date.getDate() + "-" + date.getMonth() + "-" + date.getFullYear() + ".json", JSON.stringify({logs: userLogs[steamID.getSteamID64()]}), (ERR) => {
             if (ERR) {
                 infolog.error("| |UserData| |: An error occurred while writing UserLogs file: " + ERR);
             }
         });
+
+        fs.appendFile(
+            "./app/Settings/ChatLogs/UserLogs/" + steamID.getSteamID64() + "-log-" + date.getDate() + "-" + date.getMonth() + "-" + date.getFullYear() + ".jsonl",
+            JSON.stringify({date: date, echo: false, message: message}) + "\n",
+            (ERR) => {
+                if (ERR) {
+                    infolog.error("| |UserData| |: An error occurred while writing UserLogs jsonl file: " + ERR);
+                }
+            }
+        );
     }
+
     if(method.DailyChatLogsEnabled()) {
         chatLogs += steamID.getSteamID64() + " : " + message + "\n";
-        fs.writeFile("./app/Settings/ChatLogs/FullLogs/log-" + new Date().getDate() + "-" + new Date().getMonth() + "-" + new Date().getFullYear() + ".txt", chatLogs, (ERR) => {
+        fs.writeFile("./app/Settings/ChatLogs/FullLogs/log-" + date.getDate() + "-" + date.getMonth() + "-" + date.getFullYear() + ".txt", chatLogs, (ERR) => {
             if (ERR) {
                 infolog.error("| |UserData| |: An error occurred while writing FullLogs file: " + ERR);
             }
         });
+
+        fs.appendFile(
+            "./app/Settings/ChatLogs/FullLogs/log-" + date.getDate() + "-" + date.getMonth() + "-" + date.getFullYear() + ".jsonl",
+            JSON.stringify({date: date, echo: false, id: steamID.getSteamID64(), message: message}) + "\n",
+            (ERR) => {
+                if (ERR) {
+                    infolog.error("| |UserData| |: An error occurred while writing FullLogs jsonl file: " + ERR);
+                }
+            });
+    }
+    if (userMsgs[steamID.getSteamID64()]) {
+        userMsgs[steamID.getSteamID64()]++;
+    } else {
+        userMsgs[steamID.getSteamID64()] = 1;
+    }
+});
+refloow.on("friendMessageEcho", function (steamID, message) {
+    // Console display of received messages
+    if (method.ReceivedMessagesDisplay()) {
+        Console.new("| [SteamChatEcho] |: " + steamID.getSteamID64() + " |: " + message);
+    }
+    if (userLogs[steamID.getSteamID64()]) {
+        userLogs[steamID.getSteamID64()].push(message);
+    } else {
+        userLogs[steamID.getSteamID64()] = [];
+        userLogs[steamID.getSteamID64()].push(message);
+    }
+
+    let date = new Date();
+
+    if (method.ChatLogsForEachUserEnabled()) {
+        fs.appendFile(
+            "./app/Settings/ChatLogs/UserLogs/" + steamID.getSteamID64() + "-log-" + date.getDate() + "-" + date.getMonth() + "-" + date.getFullYear() + ".jsonl",
+            JSON.stringify({date: date, echo: true, message: message}) + "\n",
+            (ERR) => {
+                if (ERR) {
+                    infolog.error("| |UserData| |: An error occurred while writing UserLogs jsonl file: " + ERR);
+                }
+            }
+        );
+    }
+    if (method.DailyChatLogsEnabled()) {
+        fs.appendFile(
+            "./app/Settings/ChatLogs/FullLogs/log-" + date.getDate() + "-" + date.getMonth() + "-" + date.getFullYear() + ".jsonl",
+            JSON.stringify({date: date, echo: true, id: steamID.getSteamID64(), message: message}) + "\n",
+            (ERR) => {
+                if (ERR) {
+                    infolog.error("| |UserData| |: An error occurred while writing FullLogs jsonl file: " + ERR);
+                }
+            }
+        );
     }
     if (userMsgs[steamID.getSteamID64()]) {
         userMsgs[steamID.getSteamID64()]++;
